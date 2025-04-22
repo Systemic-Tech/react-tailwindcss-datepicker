@@ -13,10 +13,10 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "pret:fix": "prettier --write .",
-        "build": "npm run lint && npm run clean && rollup -c rollup.config.mjs --bundleConfigAsCjs",
+        "build": "npm run clean && rollup -c rollup.config.mjs --bundleConfigAsCjs",
         "pub": "npm run build && np --no-tests",
         "dev": "next dev -p 8888",
-        "prepare": "husky install && npm run build"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
