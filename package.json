@@ -15,8 +15,7 @@
         "pret:fix": "prettier --write .",
         "build": "npm run clean && rollup -c rollup.config.mjs --bundleConfigAsCjs",
         "pub": "npm run build && np --no-tests",
-        "dev": "next dev -p 8888",
-        "prepare": "husky"
+        "dev": "next dev -p 8888"
     },
     "repository": {
         "type": "git",
