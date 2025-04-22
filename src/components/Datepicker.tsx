@@ -75,7 +75,7 @@ const Datepicker = (props: DatepickerType) => {
 
         useRange = true,
         value = null,
-        layout = "horizontal"
+        layout = "vertical"
     } = props;
 
     // Refs
@@ -400,7 +400,9 @@ const Datepicker = (props: DatepickerType) => {
                     <Arrow ref={arrowRef} />
 
                     <div className="mt-2.5 shadow-sm border border-gray-300 px-1 py-0.5 bg-white dark:bg-slate-800 dark:text-white dark:border-slate-600 rounded-lg">
-                        <div className={`flex ${layout === "vertical" ? "flex-col" : "flex-row"} py-2`}>
+                        <div
+                            className={`flex ${layout === "vertical" ? "flex-col" : "flex-row"} py-2`}
+                        >
                             {showShortcuts && <Shortcuts />}
 
                             <div
