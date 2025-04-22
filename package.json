@@ -7,6 +7,9 @@
     "types": "dist/index.d.ts",
     "author": "onesine",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "watch": "rollup -c -w",
         "clean": "rm -rf dist .rollup.cache tsconfig.rollup.tsbuildinfo",
