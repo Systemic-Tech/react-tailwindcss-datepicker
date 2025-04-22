@@ -16,7 +16,7 @@
         "build": "npm run lint && npm run clean && rollup -c rollup.config.mjs --bundleConfigAsCjs",
         "pub": "npm run build && np --no-tests",
         "dev": "next dev -p 8888",
-        "prepare": "husky"
+        "prepare": "husky install && npm run build"
     },
     "repository": {
         "type": "git",
