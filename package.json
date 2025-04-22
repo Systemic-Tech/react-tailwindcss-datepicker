@@ -1,7 +1,7 @@
 {
-    "name": "systemic-react-tailwindcss-datepicker",
+    "name": "@systemic/react-tailwindcss-datepicker",
     "version": "2.0.1",
-    "description": "A modern React Datepicker using Tailwind CSS 3",
+    "description": "A modern React Datepicker using Tailwind CSS 4",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
