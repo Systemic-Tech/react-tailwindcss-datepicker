@@ -1,5 +1,5 @@
 {
-    "name": "phiture-react-tailwindcss-datepicker",
+    "name": "systemic-react-tailwindcss-datepicker",
     "version": "2.0.1",
     "description": "A modern React Datepicker using Tailwind CSS 3",
     "main": "dist/index.cjs.js",
@@ -23,7 +23,7 @@
         "url": "https://github.com/onesine/react-tailwindcss-datepicker"
     },
     "keywords": [
-        "phiture",
+        "systemic",
         "react-tailwindcss-datepicker",
         "react-datepicker",
         "tailwind-datepicker",
@@ -33,7 +33,8 @@
         "react-daterangepicker",
         "date-range",
         "date-range-picker",
-        "tailwind-daterange-picker"
+        "tailwind-daterange-picker",
+        "v4"
     ],
     "peerDependencies": {
         "dayjs": "^1.11.12",
